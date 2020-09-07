@@ -8,14 +8,14 @@ In this project I've implemenbted Power Gating technique for 2 bit Comparator & 
 ## Table of Contents
 - [1. Power Gating technique in comparator for Low-power applications.](#1.-Implementation-of-Power-Gating-technique-in-comparator-for-Low-power-applications.)
 - [2. Theory](#2-Theory)
-- [3. EDA Tools Used](#4-eda-tools-used)
-- [4. Pre-layout Simulations](#5-Pre-layout-Simulations)
-- [5. Post-layout and Simulations](#6-Post-Layout-Simulations)
-- [6. Future work](#7-Future-work)
-- [7. Author](#8-Author)
-- [8. Contributors](#9-Contributors)
-- [9. Acknowledgments](#10-acknowledgments)
-- [10. Contact Information -](#10-contact-information--)
+- [3. EDA Tools Used](#3-eda-tools-used)
+- [4. Pre-layout Simulations](#4-Pre-layout-Simulations)
+- [5. Post-layout and Simulations](#5-Post-Layout-Simulations)
+- [6. Future work](#6-Future-work)
+- [7. Author](#7-Author)
+- [8. Contributors](#8-Contributors)
+- [9. Acknowledgments](#9-acknowledgments)
+- [10. Contact Information](#10-contact-information--)
 
 ## 2. Theory
  
@@ -45,4 +45,46 @@ As we can decide only by MSB comparison & there is no need of comparison of othe
 </p>
 Fig: Block Diagram representing general idea of implementation of power gating in n-bit comparator
 
+## 3. EDA Tools Used 
 
+The library used is osu180nm. 
+1. [LtSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+2. [Ngspice](http://ngspice.sourceforge.net/download.html)
+2. [Magic](http://opencircuitdesign.com/magic/)
+
+## 5. Pre-layout Simulations
+
+**1-bit comparator**
+</p>
+
+![Alt Text](https://github.com/parasgidd/pg2bitcomp/blob/master/images/comp1bitblock.png)
+
+</p>
+
+Fig: Circuit Diagram of 1 bit comparator.
+</p>
+
+![Alt Text](https://github.com/parasgidd/pg2bitcomp/blob/master/images/comp1bitblockop.png)
+
+</p>
+Fig: Input-Output waveforms of 1-bit comparator. </p>
+
+**2-bit comparator with Power Gating implemented**
+
+</p>
+
+![Alt Text](https://github.com/parasgidd/pg2bitcomp/blob/master/images/pgcomp2bitblock.png)
+
+</p>
+Fig: Circuit Diagram of 2 bit comparator.
+
+</p>
+
+![Alt Text](https://github.com/parasgidd/pg2bitcomp/blob/master/images/pgcomp2bitblockop.png)
+
+</p>
+Fig: Input-Output waveforms of 1-bit comparator with Power Gating implemented.
+a2, a1  -> bits of 1st number (RED)
+b2, b1  -> bits of 2nd number (Green)
+eq  -> Equal signal from MSB Comparison (i.e. equal output signal from comparison of a2 & b2 )
+smaller_1 (Pink),  equal_1(Yellow),  greater_1 (Red)  --> Outputs of LSB Comparison
