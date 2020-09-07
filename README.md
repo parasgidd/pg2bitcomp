@@ -122,6 +122,7 @@ Implement this technique in much more complicated circuits. Analyze for same & c
 - **Paras Gidd** 
 
 ## 10. Acknowledgments
+- I would like to thank my Mommy & Pappa (Mother & Father) who constantly supported & motivated me. 
 
 ## 11. Contact Information - 
  - Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
