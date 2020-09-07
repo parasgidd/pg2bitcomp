@@ -11,11 +11,12 @@ In this project I've implemenbted Power Gating technique for 2 bit Comparator & 
 - [3. EDA Tools Used](#3-eda-tools-used)
 - [4. Pre-layout Simulations](#4-Pre-layout-Simulations)
 - [5. Post-layout and Simulations](#5-Post-Layout-Simulations)
-- [6. Future work](#6-Future-work)
-- [7. Author](#7-Author)
-- [8. Contributors](#8-Contributors)
-- [9. Acknowledgments](#9-acknowledgments)
-- [10. Contact Information](#10-contact-information--)
+- [6. Results & Conclusion](#6.-Results-&-Conclusion)
+- [7. Future work](#7-Future-work)
+- [8. Author](#8-Author)
+- [9. Contributors](#9-Contributors)
+- [10. Acknowledgments](#10-acknowledgments)
+- [11. Contact Information -](#10-contact-information--)
 
 ## 2. Theory
  
@@ -88,3 +89,36 @@ a2, a1  -> bits of 1st number (RED). </p>
 b2, b1  -> bits of 2nd number (Green). </p>
 eq  -> Equal signal from MSB Comparison (i.e. equal output signal from comparison of a2 & b2 ). </p>
 smaller_1 (Pink),  equal_1(Yellow),  greater_1 (Red)  --> Outputs of LSB Comparison. </p>
+
+## 6. Post-Layout Simulations 
+
+</p>
+(It will be updated soon)
+</p>
+
+## 7. Results & Conclusion
+</p>
+The Power required by proposed 2- bit comparator is reduced by 42.59%, but that's achievable only when MSB's are different.
+In case of inputs where MSB's are same, the total power required increases by 7.4% because of additional hardware implemented in the design.
+</p>
+Silicon area also increases & so is complexity & losing some performance in terms of response time as the parallel operation which was happening in conventional design became sequential.
+</p>
+Considering all these factors, it's still compelling soltution for designers because of its use in low power & battery operated portable device such as mobile phones.
+</p>
+
+Note : This project provides just a glimpse of power gating technique for students & VLSI enthusiast who want to learn about this technique.
+</p>
+
+## 8. Future work
+</p>
+Implement this technique in much more complicated circuits. Analyze for same & compare with traditional design.
+
+
+## 9. Contributors 
+
+- **Paras Gidd** 
+
+## 10. Acknowledgments
+
+## 11. Contact Information - 
+ - Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
