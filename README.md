@@ -83,8 +83,8 @@ Fig: Circuit Diagram of 2 bit comparator.
 ![Alt Text](https://github.com/parasgidd/pg2bitcomp/blob/master/images/pgcomp2bitblockop.png)
 
 </p>
-Fig: Input-Output waveforms of 1-bit comparator with Power Gating implemented.
-a2, a1  -> bits of 1st number (RED)
-b2, b1  -> bits of 2nd number (Green)
-eq  -> Equal signal from MSB Comparison (i.e. equal output signal from comparison of a2 & b2 )
-smaller_1 (Pink),  equal_1(Yellow),  greater_1 (Red)  --> Outputs of LSB Comparison
+Fig: Input-Output waveforms of 1-bit comparator with Power Gating implemented. </p>
+a2, a1  -> bits of 1st number (RED). </p>
+b2, b1  -> bits of 2nd number (Green). </p>
+eq  -> Equal signal from MSB Comparison (i.e. equal output signal from comparison of a2 & b2 ). </p>
+smaller_1 (Pink),  equal_1(Yellow),  greater_1 (Red)  --> Outputs of LSB Comparison. </p>
