@@ -6,7 +6,7 @@ In this project I've implemenbted Power Gating technique for 2 bit Comparator & 
 
 
 ## Table of Contents
-- [1. Power Gating technique in comparator for Low-power applications.](#1.-Implementation-of-Power-Gating-technique-in-comparator-for-Low-power-applications.)
+- [1. Power Gating technique in comparator for Low-power applications.](#1.-Implementation-of-Power-Gating-technique-in-comparator-for-Low---power-applications.)
 - [2. Theory](#2-Theory)
 - [3. EDA Tools Used](#3-eda-tools-used)
 - [4. Pre-layout Simulations](#4-Pre-layout-Simulations)
