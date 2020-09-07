@@ -90,13 +90,13 @@ b2, b1  -> bits of 2nd number (Green). </p>
 eq  -> Equal signal from MSB Comparison (i.e. equal output signal from comparison of a2 & b2 ). </p>
 smaller_1 (Pink),  equal_1(Yellow),  greater_1 (Red)  --> Outputs of LSB Comparison. </p>
 
-## 6. Post-Layout Simulations 
+## 5. Post-Layout Simulations 
 
 </p>
 (It will be updated soon)
 </p>
 
-## 7. Results & Conclusion
+## 6. Results & Conclusion
 </p>
 The Power required by proposed 2- bit comparator is reduced by 42.59%, but that's achievable only when MSB's are different.
 In case of inputs where MSB's are same, the total power required increases by 7.4% because of additional hardware implemented in the design.
@@ -109,9 +109,12 @@ Considering all these factors, it's still compelling soltution for designers bec
 Note : This project provides just a glimpse of power gating technique for students & VLSI enthusiast who want to learn about this technique.
 </p>
 
-## 8. Future work
+## 7. Future work
 </p>
 Implement this technique in much more complicated circuits. Analyze for same & compare with traditional design.
+
+## 8. Author
+- Paras Gidd, M.Tech.( Microelectronics ), Manipal Institute of Technology,(MAHE), parasgidd@gmail.com
 
 
 ## 9. Contributors 
