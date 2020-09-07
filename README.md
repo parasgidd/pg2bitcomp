@@ -11,7 +11,7 @@ In this project I've implemenbted Power Gating technique for 2 bit Comparator & 
 - [3. EDA Tools Used](#3-eda-tools-used)
 - [4. Pre-layout Simulations](#4-Pre-layout-Simulations)
 - [5. Post-layout and Simulations](#5-Post-Layout-Simulations)
-- [6. Results & Conclusion](#6.-Results-&-Conclusion)
+- [6. Results & Conclusion](#6-results--conclusion)
 - [7. Future work](#7-Future-work)
 - [8. Author](#8-Author)
 - [9. Contributors](#9-Contributors)
