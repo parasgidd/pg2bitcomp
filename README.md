@@ -16,7 +16,7 @@ In this project I've implemenbted Power Gating technique for 2 bit Comparator & 
 - [8. Author](#8-Author)
 - [9. Contributors](#9-Contributors)
 - [10. Acknowledgments](#10-acknowledgments)
-- [11. Contact Information -](#10-contact-information--)
+- [11. Contact Information -](#11-contact-information--)
 
 ## 2. Theory
  
@@ -53,7 +53,7 @@ The library used is osu180nm.
 2. [Ngspice](http://ngspice.sourceforge.net/download.html)
 2. [Magic](http://opencircuitdesign.com/magic/)
 
-## 5. Pre-layout Simulations
+## 4. Pre-layout Simulations
 
 **1-bit comparator**
 </p>
